@@ -1,0 +1,148 @@
+import {StyleSheet} from 'react-native';
+import {colors} from '../../../utils';
+
+const styles = StyleSheet.create({
+  pages: {
+    backgroundColor: colors.background.main,
+    flex: 1,
+  },
+  header: {
+    backgroundColor: colors.background.primary,
+    height: 190,
+    paddingTop: 35,
+    paddingStart: 20,
+  },
+  boxHeader: {
+    backgroundColor: colors.background.tertiary,
+    width: '93%',
+    height: 150,
+    paddingVertical: 5,
+    position: 'absolute',
+    alignSelf: 'center',
+    top: '50%',
+    borderRadius: 8,
+    justifyContent: 'space-between',
+    elevation: 5,
+  },
+  boxBalance: {
+    paddingHorizontal: 15,
+    flexDirection: 'row',
+    width: '48%',
+    height: '47%',
+  },
+  boxOutputIcon: {
+    backgroundColor: colors.background.buy,
+    width: 44,
+    height: 44,
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  boxInputIcon: {
+    backgroundColor: colors.background.sale,
+    width: 44,
+    height: 44,
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  row: {
+    flexDirection: 'row',
+  },
+  amountBalance: {
+    paddingStart: 10,
+  },
+  menu: {
+    marginTop: 65,
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    zIndex: -10,
+  },
+  menuIcon: {
+    width: 80,
+    height: 80,
+    borderRadius: 10,
+    backgroundColor: colors.background.tertiary,
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+  },
+  imageMenu: {
+    width: 35,
+    height: 35,
+    resizeMode: 'contain',
+  },
+  imageIcon: {
+    width: 30,
+    height: 30,
+    resizeMode: 'contain',
+  },
+  titleHistorySale: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingRight: 24,
+    paddingLeft: 25,
+    alignItems: 'center',
+    paddingBottom: 7,
+    paddingTop: 20,
+  },
+  linearGradient: {
+    height: 50,
+    width: 100,
+    marginTop: 7,
+    borderRadius: 10,
+    position: 'absolute',
+    top: -7,
+    zIndex: 100,
+  },
+  illustration: {
+    width: 250,
+    marginHorizontal: 20,
+    marginTop: 10,
+    height: 120,
+    resizeMode: 'contain',
+  },
+  highlight: {
+    marginStart: 25,
+    marginTop: 10,
+  },
+  modal: {
+    width: 330,
+    height: 510,
+    backgroundColor: 'white',
+    position: 'absolute',
+    zIndex: 1000000000,
+    top: 130,
+    borderRadius: 5,
+    alignSelf: 'center',
+  },
+  headerCalendar: {
+    height: 80,
+    backgroundColor: '#080c64',
+    borderTopEndRadius: 5,
+    borderTopStartRadius: 5,
+    paddingStart: 20,
+    paddingTop: 10,
+  },
+  profitLoss: {
+    flexDirection: 'row',
+  },
+  headerWrapper: {
+    position: 'absolute',
+    height: 180,
+    backgroundColor: '#E0DCE4',
+    left: 0,
+    right: 0,
+  },
+  iconHistory: {
+    width: 35,
+    height: 35,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'blue',
+    borderRadius: 100,
+    borderColor: 'white',
+    borderWidth: 3,
+  },
+});
+
+export default styles;
